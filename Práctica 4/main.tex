@@ -1,0 +1,43 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[spanish]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\ProvidesPackage{whilecode2}
+\RequirePackage{listings}
+\RequirePackage{suffix}
+\RequirePackage[onelanguage, linesnumbered, noline, resetcount]{algorithm2e}
+
+\title{Práctica 4 TALF}
+\author{Omar Lukach Temsamani}
+
+\begin{document}
+\maketitle
+
+\section{Ejercicio 1}
+
+\subsection{Enunciado}
+Create the simplest WHILE program that computes the diverge function (with
+zero arguments) and compute the codification of its code.
+
+\subsection{Resolución}
+\newenvironment{whilecode}
+\begin{whilecode}
+ $X_1=1$; \\
+ \While{$X_1 \not = 0$}{
+
+  $X_1 := X_1 + 1$\;
+
+ }
+\\
+ Este es un programa en while que diverge, pues $X_1$ nunca llega a ser 0 y el programa no termina. 
+\end{document}
