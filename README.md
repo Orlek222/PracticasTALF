@@ -1,3 +1,3 @@
 # PracticasTALF
 
-Repositorio en el que he estado subiendo mis prácticas de la asignatura Teoría de Autómatas y Lenguajes Formales
+Repository where I've been uploading my Automata Theory and Formal Languages practices
